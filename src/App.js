@@ -72,7 +72,7 @@ function App() {
 				<BookCard
 					src="book2.jpg"
 					naslov="The Man Who Knew Too Much"
-					citat="To solve one of the great mathematical problems of his day, Alan Turing proposed an imaginary programmable calculating machine. But the idea of actually producing a Turing machine did not crystallize until he and his brilliant Bletchley Park colleagues built devices to crack the Nazis' Enigma code, thus ensuring the Allies' victory in World War II. In so doing, Turing became a champion of artificial intelligence, formulating the famous (and still unbeaten)"
+					citat="To solve one of the great mathematical problems of his day, Alan Turing proposed an imaginary programmable calculating machine. But the idea of actually producing a Turing machine did not crystallize until he and his brilliant Bletchley Park colleagues built devices to crack the Nazis' Enigma code, thus ensuring the Allies' victory in World War II."
 					pisac="David Leavitt"
 					godina_izdavanja="2006"
 				/>
