@@ -1,34 +1,36 @@
 import React from 'react';
 import './idCard.css';
+import TheImage from '../Image/TheImage'
 
 
-const IdCard = () =>{
+const IdCard = ({name,surname,date,city,src}) =>{
 
 return(
-    <section>
-    <div className="container">
+   
+<div className="container">
+        
     <div className="card">
         <div className="content">
             <div className="imgBx">
-                <img src="/images/user_1.jpg" alt=""/>
+                <img src="" alt=""/>
+                <TheImage src={src}/>
             </div>
             <div className="contentBx">
-                <h3>Stefan Braunovic<br/><span>Frontend DEveloper</span></h3>
+                <h3>{name} {surname}</h3>
             </div>
         </div>
         <ul className="sci">
-        <li Style="--i:1" aria-hidden="true">
-            Datum rodjenja: 15.05.1993
+        <li Style="--i:4" aria-hidden="true">
+           Birthday: {date}
         </li>
-        <li Style="--i:1" aria-hidden="true">
-            Grad: Podgorica
+        <li Style="--i:4" aria-hidden="true">
+           City: {city}
         </li>
     </ul>
     </div>
   
     </div>
 
-</section>
 
 
    

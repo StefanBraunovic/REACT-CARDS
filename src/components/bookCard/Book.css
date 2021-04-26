@@ -1,7 +1,7 @@
 .container {
 	max-width: 1000px;
-	margin: 100px auto;
-	display: flex;
+	margin: 20px auto;
+	display: grid;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
@@ -20,13 +20,13 @@ img {
 	transform-style: preserve-3d;
 	transform: perspective(2000px);
 	transition: 1s;
-	box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 300px 0 50px rgb(245, 245, 245);
 }
 
 .kartica:hover {
 	z-index: 1000;
 	transform: perspective(2000px) rotate(-10deg);
-	box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+	/* box-shadow: inset 20px 0 50px rgba(107, 107, 107, 1); */
 }
 
 .kartica .imgBox {
